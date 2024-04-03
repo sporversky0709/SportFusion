@@ -1,0 +1,104 @@
+.team-collections-container {
+    text-align: center;
+    color: white;
+    background-color: #000;
+    padding: 20px 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.team-collections-container h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-collections-container p {
+    margin-bottom: 2rem;
+}
+
+.teams-grid {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.teams-grid img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    aspect-ratio: 1 / 1;
+}
+
+.teams-grid img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #007bff;
+}
+
+.buy-pack-button {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.buy-pack-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .teams-grid img {
+        max-width: 10%;
+    }
+}

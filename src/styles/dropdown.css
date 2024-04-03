@@ -1,0 +1,16 @@
+.dropDownProfile {
+    position: absolute;
+    top: 4.5rem;
+    right: 4rem;
+    width: 126px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid gray;
+}
+
+.dropdownProfile::before {
+    position: absolute;
+    content: "";
+    top: -0.7rem;
+}

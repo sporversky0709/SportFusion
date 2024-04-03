@@ -1,0 +1,57 @@
+.collection-video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+}
+
+.content-container {
+    flex: 1;
+    position: relative;
+}
+
+.text-content {
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+}
+
+.video-container {
+    flex: 1;
+    position: relative;
+    padding-top: 25%;
+    height: 0;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 360px;
+}
+
+.market-btn {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.market-btn:hover {
+    background-color: #0056b3;
+}

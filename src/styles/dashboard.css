@@ -1,0 +1,66 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: var(--oxford-blue-2);
+    color: var(--alice-blue);
+}
+
+.dashboard-nav {
+    padding: var(--section-padding);
+    width: 250px;
+    background: var(--prussian-blue);
+    height: 84.5%;
+    box-shadow: var(--shadow-2);
+    margin-top: 50%;
+}
+
+.dashboard-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-nav li a {
+    color: var(--alice-blue);
+    padding: 10px 15px;
+    display: block;
+    transition: background-color var(--transition-1), color var(--transition-1);
+}
+
+.dashboard-nav li a:hover,
+.dashboard-nav li a:focus {
+    background-color: var(--blue-violet);
+    color: var(--white);
+}
+
+.dashboard-main {
+    flex: 1;
+    padding: var(--section-padding);
+    background: var(--oxford-blue);
+    overflow-y: auto;
+}
+
+.dashboard-main h2 {
+    color: var(--alice-blue);
+    font-size: var(--headline-md);
+    margin-bottom: 20px;
+}
+
+a {
+    color: var(--alice-blue);
+    text-decoration: none;
+}
+
+.dashboard-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-nav {
+    flex: 0 0 250px;
+}
+
+.dashboard-main {
+    flex: 1;
+}

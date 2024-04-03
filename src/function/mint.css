@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;300;400;500&display=swap");
+
+html {
+    scroll-behavior: smooth;
+    transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.table {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    border: 3px solid #00203f;
+    border-color: #00203f;
+}
+
+
+nav {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+input,
+select {
+    font-family: "Noto Sans Mono", monospace;
+}
+
+.btn {
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    border-radius: 10px;
+}
+
+.nft-card {
+    border-radius: 7px;
+    color: #adefd1;
+    background-color: #00203f;
+}
+
+.nft-card .card-body .col {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+/* Ensures that the table stretches to full width */
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+/* Styles for the table cells */
+.table td,
+.table th {
+    padding: 1.5rem;
+    /* Adjusts the spacing within cells */
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Makes input fields wider and more balanced */
+.input,
+.form-control,
+select {
+    display: block;
+    width: 100%;
+    /* Makes inputs take up full cell width */
+    padding: 0.375rem 0.75rem;
+    /* Adjusts padding for inputs */
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    /* Adds rounded corners to inputs */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Adjusts the textarea height */
+textarea.form-control {
+    height: auto;
+    /* Makes textarea height adjustable based on content */
+}
+
+/* Enhances the visibility of the form */
+.form-container {
+    border: 1px solid #007bff;
+    /* Blue border for the form container */
+    padding: 20px;
+    /* Padding around the form content */
+    background-color: #f8f9fa;
+    /* Light background color for the form */
+}
+
+/* Styles for buttons */
+.button-24,
+.button-25 {
+    padding: 10px 24px;
+    /* Adjusts padding for buttons */
+    font-size: 16px;
+    /* Makes text inside buttons larger */
+    border-radius: 5px;
+    /* Rounded corners for buttons */
+}
+
+/* Ensures that the uploaded image container is properly centered */
+.uploaded-img {
+    margin: 0 auto;
+    /* Centers the image container horizontally */
+    border: 1px solid #ced4da;
+    /* Adds a border around the image container */
+}
+
+/* Styles for the response container */
+.status {
+    font-size: 1.25rem;
+    /* Larger text for status messages */
+    color: #17a2b8;
+    /* Teal color for information text */
+    padding: 15px;
+    /* Padding inside the status message container */
+    border: 1px solid #17a2b8;
+    /* Border color matches the text */
+    border-radius: 5px;
+    /* Rounded corners for the status container */
+}
+
+/* Additional styles for link buttons */
+a.btn-warning {
+    color: #ffffff;
+    /* Ensures text in warning buttons is white */
+    background-color: #ffc107;
+    /* Background color for warning buttons */
+    border-color: #ffc107;
+    /* Border color matches the background */
+}
